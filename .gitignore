@@ -1,0 +1,5 @@
+
+.vscode/arduino.json
+.vscode/c_cpp_properties.json
+examples/Sweep/.vscode/c_cpp_properties.json
+examples/Sweep/.vscode/arduino.json
