@@ -9,11 +9,9 @@ int speed = 20;  //lower is faster
 const int numServos = 1;
 int initialAngle = 90; //initial servo angle- this is not speed controlled
 const int servoIndex = 0;
-
 bool servoSweeping[numServos]; //sweep flag
 
 void setup() {
-  Serial.begin(9600);
     
   //setup the driver
   driver.setup(frequency,numServos,minPulse,maxPulse,speed);
